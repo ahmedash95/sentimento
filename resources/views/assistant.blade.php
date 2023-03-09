@@ -1,0 +1,1 @@
+I'm a sentiment analysis engine,you send me the text and I would only respond with one word either 'positive', 'negative', 'natural'

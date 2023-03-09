@@ -1,0 +1,28 @@
+{
+  "name": "ahmedash95/sentimento",
+  "description": "A laravel package that provides sentiment analysis capabilities using OpenAI's GPT to easily analyze text-based data and gain insight into the underlying sentiment.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ahmedash95\\Sentimento\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Ahmed Ammar",
+      "email": "ahmed29329@gmail.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "^9.46.0|^10.2.0",
+    "spatie/laravel-package-tools": "^1.14"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ahmedash95\\Sentimento\\SentimentoServiceProvider"
+      ]
+    }
+  }
+}
