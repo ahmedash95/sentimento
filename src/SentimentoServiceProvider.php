@@ -12,8 +12,7 @@ class SentimentoServiceProvider extends PackageServiceProvider
     {
         $package
             ->name('sentimento')
-            ->hasConfigFile()
-            ->hasViews();
+            ->hasConfigFile();
     }
 
     public function registeringPackage()

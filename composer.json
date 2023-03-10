@@ -21,11 +21,13 @@
   ],
   "require": {
     "laravel/framework": "^9.46.0|^10.2.0",
-    "spatie/laravel-package-tools": "^1.14"
+    "spatie/laravel-package-tools": "^1.14",
+    "guzzlehttp/guzzle": "^7.5"
   },
   "require-dev": {
     "pestphp/pest": "^1.22",
-    "laravel/pint": "^1.6"
+    "laravel/pint": "^1.6",
+    "orchestra/testbench": "^8.0"
   },
   "extra": {
     "laravel": {
