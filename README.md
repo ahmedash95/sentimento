@@ -3,6 +3,7 @@ A laravel package that provides sentiment analysis capabilities using OpenAI's G
 
 <p align="center">
     <p align="center">
+        <img alt="Laravel Version" src="https://img.shields.io/badge/Laravel-10-orange" />
         <a href="https://github.com/ahmedash95/sentimento/actions"><img alt="GitHub Workflow Status (master)" src="https://img.shields.io/github/workflow/status/ahmedash95/sentimento/Tests/master"></a>
         <a href="https://packagist.org/packages/ahmedash95/sentimento"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/ahmedash95/sentimento"></a>
         <a href="https://packagist.org/packages/ahmedash95/sentimento"><img alt="Latest Version" src="https://img.shields.io/packagist/v/ahmedash95/sentimento"></a>
