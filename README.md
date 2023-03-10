@@ -1,6 +1,15 @@
 # Sentimento
 A laravel package that provides sentiment analysis capabilities using OpenAI's GPT to easily analyze text-based data and gain insight into the underlying sentiment.
 
+<p align="center">
+    <p align="center">
+        <a href="https://github.com/ahmedash95/sentimento/actions"><img alt="GitHub Workflow Status (master)" src="https://img.shields.io/github/workflow/status/ahmedash95/sentimento/Tests/master"></a>
+        <a href="https://packagist.org/packages/ahmedash95/sentimento"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/ahmedash95/sentimento"></a>
+        <a href="https://packagist.org/packages/ahmedash95/sentimento"><img alt="Latest Version" src="https://img.shields.io/packagist/v/ahmedash95/sentimento"></a>
+        <a href="https://packagist.org/packages/ahmedash95/sentimento"><img alt="License" src="https://img.shields.io/packagist/l/ahmedash95/sentimento"></a>
+    </p>
+</p>
+
 ![logo](logo.png)
 
 ```php
