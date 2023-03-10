@@ -10,7 +10,6 @@ class Sentimento
 {
     public function __construct(private readonly Client $client, private $reportFailures = true)
     {
-
     }
 
     public function analyze($text): Decision

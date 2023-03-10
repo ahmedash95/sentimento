@@ -17,13 +17,12 @@ class Client
     {
         $this->client = Http::withHeaders([
             'Content-Type' => 'application/json',
-            'Authorization' => 'Bearer ' . $token
+            'Authorization' => 'Bearer '.$token,
         ]);
     }
 
     /**
-     * @param string $model
-     * @param Message[] $messages
+     * @param  Message[]  $messages
      * @return Response
      */
     public function send(string $model, array $messages)

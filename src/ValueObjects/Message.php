@@ -24,7 +24,7 @@ class Message
     {
         return [
             'role' => $this->role,
-            'content' => $this->content
+            'content' => $this->content,
         ];
     }
 }

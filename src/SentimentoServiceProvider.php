@@ -3,7 +3,6 @@
 namespace Ahmedash95\Sentimento;
 
 use Ahmedash95\Sentimento\Http\Client;
-use Illuminate\Support\ServiceProvider;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
