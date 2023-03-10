@@ -8,6 +8,11 @@
       "Ahmedash95\\Sentimento\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
   "authors": [
     {
       "name": "Ahmed Ammar",
@@ -18,11 +23,24 @@
     "laravel/framework": "^9.46.0|^10.2.0",
     "spatie/laravel-package-tools": "^1.14"
   },
+  "require-dev": {
+    "pestphp/pest": "^1.22",
+    "laravel/pint": "^1.6"
+  },
   "extra": {
     "laravel": {
       "providers": [
         "Ahmedash95\\Sentimento\\SentimentoServiceProvider"
       ]
     }
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "scripts": {
+    "test": "./vendor/bin/pest",
+    "pint": "./vendor/bin/pint"
   }
 }
