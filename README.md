@@ -53,7 +53,9 @@ Sentimento::analyze("Food was bad!"); // Negative
 Sentimento::analyze("لما اتصلت بالدليفري قالي انه اكل الاوردر"); // Negative
 ```
 
-⚠️⚠️⚠️ When calling OpenAI to analyze text, there is a possibility that HTTP exceptions may occur if the request to OpenAI fails. This can happen due to a variety of reasons, such as network connectivity issues, server errors, or even rate limiting policies imposed by OpenAI. If the request to OpenAI fails, the package may not be able to properly analyze the sentiment of the given text and may result in unexpected errors or output. To handle this, it is important to catch and handle any potential HTTP exceptions that may occur
+> [!WARNING]
+> When calling OpenAI to analyze text, there is a possibility that HTTP exceptions may occur if the request to OpenAI fails. This can happen due to a variety of reasons, such as network connectivity issues, server errors, or even rate limiting policies imposed by OpenAI. If the request to OpenAI fails, the package may not be able to properly analyze the sentiment of the given text and may result in unexpected errors or output. To handle this, it is important to catch and handle any potential HTTP exceptions that may occur
+
 ```php
 use Ahmedash95\Sentimento\Facade\Sentimento;
 use Illuminate\Http\Client\RequestException;
